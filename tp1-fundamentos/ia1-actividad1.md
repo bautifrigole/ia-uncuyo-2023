@@ -9,7 +9,7 @@
 
 	Un ejemplo de esto se puede ver en LOCOSOCCER un juego desarrollado por Startreming Games, en el cual participé en el desarrollo de la inteligencia artificial contra la cual se puede jugar. La misma toma decisiones según qué tan cerca está de la pelota, qué tan cerca está del arco rival y del propio. También predice dónde caerá la pelota para intentar llegar a ese lugar y ganarle la posesión al rival.
 
-	![alt text](https://cdn.akamai.steamstatic.com/steam/apps/2173530/extras/nice_shot_resized.gif?t=1670801032)
+	![alt text](https://cdn.cloudflare.steamstatic.com/steam/apps/2173530/extras/gameplay_gif.gif)
 
 * **Generación Procedural**: 
 	
