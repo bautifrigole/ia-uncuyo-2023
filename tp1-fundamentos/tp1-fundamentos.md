@@ -3,35 +3,74 @@
 ## Ejercicio 1
 ### Inteligencia Artificial Débil
 
-La inteligencia artificial débil se refiere a sistemas de inteligencia artificial que están diseñados para realizar tareas específicas y limitadas. Estos sistemas de IA no tienen la capacidad de replicar la inteligencia humana en general.
+La inteligencia artificial débil surge con la siguiente afirmación:
 
-La IA débil se enfoca en la automatización de tareas determinadas y en la mejora de la eficiencia y la precisión de estas. Ejemplos de inteligencia artificial débil pueden ser el reconocimiento de voz, la clasificación de imágenes, la traducción de idiomas y la detección de fraudes. Estos sistemas de IA se basan en algoritmos y modelos matemáticos para realizar estas tareas.
+> Cada aspecto del aprendizaje o cualquier otra característica de la inteligencia se puede describir con tanta precisión que se puede hacer una máquina para simularlo.
 
-A diferencia de la IA fuerte, la IA débil no tiene la capacidad de replicar la inteligencia humana en general. Los sistemas de IA débil no tienen conciencia, emociones o pensamiento creativo. Estos sistemas de IA están diseñados para realizar únicamente su tarea y no tienen la capacidad de aprender de manera autónoma o de adaptarse a nuevas situaciones.
+La inteligencia artificial débil se refiere a la hipótesis de que las máquinas pueden actuar _como si_ fueran inteligentes.
 
-La IA débil se ha utilizado en una amplia variedad de aplicaciones, incluyendo la automatización de procesos empresariales, la atención médica, la seguridad y la vigilancia, la fabricación y la logística.
+#### Turing Test
+Alan Turing rechazó la pregunta "¿Pueden pensar las máquinas?" y lo reemplazó con una prueba de comportamiento. Anticipó muchas objeciones a la posibilidad de máquinas pensantes.
+
+La prueba consiste en que un programa tenga una conversación (a través de mensajes escritos en línea) con un interrogador durante cinco minutos. El interrogador luego tiene que adivinar si la conversación es con un programa o una persona; el programa pasa la prueba si engaña al interrogador el 30% de las veces.
+
+Pocos investigadores de IA prestan atención a la prueba de Turing y prefieren concentrarse en el rendimiento de sus sistemas en tareas prácticas, en lugar de la capacidad de imitar a los humanos.
+
+El propio Turing examinó una amplia variedad de posibles objeciones a la posibilidad de máquinas inteligentes, incluidas prácticamente todas las que se han planteado en el medio siglo transcurrido desde que apareció su artículo. Estas son algunas de ellas.
+
+#### El argumento de la discapacidad
+El argumento de la discapacidad afirma que "una máquina nunca puede hacer X". Como ejemplos de X, Turing enumera los siguientes:
+
+Ser amable, ingenioso, hermoso, amistoso, tenga iniciativa, tenga sentido del humor, distinga el bien del mal, enamorarse, aprender de la experiencia, etc. 
+
+Es decir, una máquina nunca podrá tener emociones reales.
+
+#### La objeción matemática
+
+Centrada sobre todo en el Teorema de la Incompletitud de Gödel (1931) que dice que en cualquier sistema lógico suficientemente potente, existen afirmaciones que no pueden ser ni afirmadas ni refutadas dentro de ese sistema a menos que el propio sistema sea inconsistente.
+
+Filósofos han afirmado que este teorema muestra que las máquinas son mentalmente inferiores a los humanos, porque las máquinas son sistemas formales que están limitados por el Teorema de la Incompletitud (no pueden establecer la verdad de su propia oración de Gödel) mientras que los humanos no tienen esa limitación.
+
+#### El argumento desde la informalidad
+
+Turing plantea una de las críticas más influyentes y persistentes a la IA afirmando de que el comportamiento humano es demasiado complejo para ser capturado por un simple conjunto de reglas y que, debido a que las computadoras no pueden hacer más que seguir un conjunto de reglas, no pueden generar un comportamiento tan inteligente como el de los humanos. La incapacidad de capturar todo en un conjunto de reglas lógicas se denomina **problema de calificación** en IA.
 
 ### Inteligencia Artificial Fuerte
 
-La inteligencia artificial fuerte, también conocida como inteligencia artificial general o de nivel humano, se refiere a sistemas de inteligencia artificial que tienen la capacidad de replicar la inteligencia humana en general. Estos sistemas de IA están diseñados para realizar una amplia variedad de tareas y tienen la capacidad de aprender de manera autónoma y de adaptarse a nuevas situaciones.
+La inteligencia artificial fuerte se refiere a la hipótesis de que las máquinas que actúan como si fueran inteligentes, _en realidad_ si piensan conscientemente (no sólo _simulan_ pensar).
 
-La IA fuerte se enfoca en la creación de sistemas de IA que puedan pensar, razonar, aprender y tomar decisiones de manera similar a los seres humanos. Estos sistemas de IA tienen la capacidad de procesar información compleja, comprender el lenguaje natural, reconocer patrones y tomar decisiones basadas en la información disponible.
+Muchos filósofos han afirmado que una máquina que pasa la prueba de Turing todavía no estaría pensando en realidad, sino que sería solo una simulación del pensamiento.
 
-Estos sistemas de IA simulan tener conciencia, emociones y pensamiento creativo. La IA fuerte se basa en la idea de que la inteligencia es una propiedad emergente de los sistemas complejos y que, por lo tanto, es posible crear sistemas de IA que tengan la capacidad de replicar la inteligencia humana en general.
+Turing llama a esto el **argumento de la conciencia**: la máquina tiene que ser consciente de sus propios estados mentales y acciones. Si bien la conciencia es un tema importante, el punto clave de Jefferson en realidad se relaciona con la fenomenología: la máquina tiene que sentir emociones. 
 
-Esta inteligencia artificial se utiliza en una amplia variedad de aplicaciones, como la robótica, la atención médica, la educación y la investigación científica.
+Otros se enfocan en la **intencionalidad**, es decir, la cuestión de si las supuestas creencias, deseos y otras representaciones de la máquina son en realidad _sobre_ algo del mundo real.
+
+Turing responde a esto con la pregunta: ¿por qué deberíamos insistir en un estándar más alto para las máquinas que para los humanos? 
+Después de todo, en la vida ordinaria nunca tenemos ninguna evidencia directa sobre los estados mentales internos de otros humanos. Sin embargo, Turing dice: “En lugar de discutir continuamente sobre este punto, lo habitual es tener la **convención cortés** de que todo el mundo piensa”.
+
+#### Estados mentales y el cerebro en un frasco
+
+#### Funcionalismo y el experimento de reemplazo cerebral
+
+#### Naturalismo Biológico y la Habitación de China
+
 
 ### La ética y los riesgos de desarrollar Inteligencia Artificial
 
-La ética de la inteligencia artificial se refiere a las consideraciones éticas y morales que deben tenerse en cuenta al desarrollar y utilizar sistemas de inteligencia artificial. A medida que la IA se vuelve cada vez más avanzada y se utiliza en una amplia variedad de aplicaciones, es importante considerar los posibles riesgos y desafíos éticos asociados con su desarrollo y uso.
+**Riesgos de desarrollar Inteligencia Artificial:**
 
-Uno de los principales riesgos de la IA es la posibilidad de que los sistemas de IA tomen decisiones que sean perjudiciales para los seres humanos. Por ejemplo, si un sistema de IA se utiliza para tomar decisiones en el ámbito de la atención médica, es importante asegurarse de que las decisiones tomadas por el sistema sean éticas y no perjudiquen a los pacientes.
-
-Otro riesgo de la IA es la posibilidad de que los sistemas de IA sean utilizados para fines malintencionados, como la vigilancia masiva o la manipulación de la opinión pública. Es importante considerar los posibles riesgos y desafíos éticos asociados con el desarrollo y uso de la IA y tomar medidas para mitigar estos riesgos.
-
-Además, es importante considerar los posibles sesgos y prejuicios que pueden estar presentes en los sistemas de IA. Los sistemas de IA se basan en datos y algoritmos, y si estos datos y algoritmos están sesgados, los sistemas de IA pueden perpetuar y amplificar estos sesgos. Es importante asegurarse de que los sistemas de IA sean justos e imparciales y no perpetúen la discriminación o el prejuicio.
-
-Para mitigar estos riesgos, se puede recurrir a la implementación de regulaciones y estándares éticos para el desarrollo y uso de la IA, a la transparencia en el proceso de toma de decisiones de los sistemas de IA y a la inclusión de diversas perspectivas y voces en el desarrollo y uso de la IA. También es importante fomentar la educación y la conciencia pública sobre los riesgos y desafíos éticos asociados con la IA y promover un diálogo abierto y continuo sobre estos temas. Al abordar estos riesgos y desafíos éticos, podemos asegurarnos de que la IA se desarrolle y utilice de manera responsable y ética para el beneficio de la sociedad en general.
+1. **Las personas podrían perder sus trabajos debido a la automatización.**
+a
+2. **Las personas podrían tener demasiado (o muy poco) tiempo de ocio.**
+a
+3. **Las personas podrían perder su sentido de ser únicas.**
+a
+4. **Los sistemas de inteligencia artificial podrían ser utilizados para fines indeseables.**
+a
+5. **El uso de sistemas de inteligencia artificial podría resultar en una pérdida de responsabilidad.**
+a
+6. **El éxito de la inteligencia artificial podría significar el fin de la raza humana.**
+a
 
 ### Mapa mental
 
@@ -47,6 +86,7 @@ Conceptos importantes:
 
 Opinión personal sobre los enfoques tratados en el capítulo, su alcance, su viabilidad, etc.
 
+Para mitigar los riesgos de la IA, se puede recurrir a la implementación de regulaciones y estándares éticos para el desarrollo y uso de la IA, a la transparencia en el proceso de toma de decisiones de los sistemas de IA y a la inclusión de diversas perspectivas y voces en el desarrollo y uso de la IA. También es importante fomentar la educación y la conciencia pública sobre los riesgos y desafíos éticos asociados con la IA y promover un diálogo abierto y continuo sobre estos temas. Al abordar estos riesgos y desafíos éticos, podemos asegurarnos de que la IA se desarrolle y utilice de manera responsable y ética para el beneficio de la sociedad en general.
 
 ## Ejercicio 2
 
