@@ -117,7 +117,7 @@ Casi cualquier tecnología tiene el potencial de causar daño en las manos equiv
 
 ### Mapa mental
 
-
+![mapa-mental](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/0425359d-8711-4266-bb1c-e06094bb3f03)
 
 ### Opinión personal
 
