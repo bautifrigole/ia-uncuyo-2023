@@ -121,11 +121,14 @@ Casi cualquier tecnología tiene el potencial de causar daño en las manos equiv
 
 ### Opinión personal
 
-Opinión personal sobre los enfoques tratados en el capítulo, su alcance, su viabilidad, etc.
+El estudio de la naturaleza de la consciencia humana sigue siendo un vasto territorio por explorar, y conforme avancemos en este entendimiento, inevitablemente influiremos en el desarrollo de la inteligencia artificial. Este proceso de integración ofrece amplias oportunidades para beneficios significativos, pero también conlleva riesgos inherentes, tal como ocurre con la propia inteligencia artificial.
 
-Para mitigar los riesgos de la IA, se puede recurrir a la implementación de regulaciones y estándares éticos para el desarrollo y uso de la IA, a la transparencia en el proceso de toma de decisiones de los sistemas de IA y a la inclusión de diversas perspectivas y voces en el desarrollo y uso de la IA. También es importante fomentar la educación y la conciencia pública sobre los riesgos y desafíos éticos asociados con la IA y promover un diálogo abierto y continuo sobre estos temas. Al abordar estos riesgos y desafíos éticos, podemos asegurarnos de que la IA se desarrolle y utilice de manera responsable y ética para el beneficio de la sociedad en general.
+Para afrontar con éxito dichos riesgos, es esencial implementar regulaciones y estándares éticos en el desarrollo y empleo de la inteligencia artificial. La transparencia en la toma de decisiones de los sistemas de IA y la inclusión de diversas perspectivas en su desarrollo también se tornan fundamentales. Además, se debe fomentar la educación y la sensibilización pública acerca de los retos éticos asociados con la IA, promoviendo un diálogo continuo. Abordar estos desafíos permitirá garantizar el uso responsable y ético de la IA en beneficio de toda la sociedad.
+
+La opinión en torno a la inteligencia artificial abarca un espectro variado, pero su progreso incesante sigue su curso. Por ello, resulta imperativo promover la educación y la familiarización de las personas con la IA, dado que un futuro sin su influencia parece inevitable. En última instancia, asumir un enfoque proactivo y ético hacia la IA se convierte en un camino esencial para la coexistencia armónica entre la tecnología y la humanidad.
 
 ## Ejercicio 2
 
-A partir de la lectura del artículo You Are Not a Parrot elaborar un breve comentario defendiendo el uso de la inteligencia artificial generativa a pesar de los comentarios observados en el artículo.
-https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html
+A pesar de las preocupaciones planteadas en el artículo "You Are Not a Parrot" sobre el uso de la inteligencia artificial generativa, creo que esta tecnología tiene un gran potencial para mejorar nuestras vidas. La IA generativa puede ser utilizada para crear contenido creativo de muy buena calidad. Además, puede ser utilizada para mejorar la eficiencia y la precisión en una variedad de campos.
+
+Es cierto que la IA generativa tiene limitaciones y riesgos, y es importante abordar estos problemas de manera responsable. Pero en lugar de rechazar completamente y privar al común de la sociedad de esta tecnología, es conveniente otorgar acceso a la misma y desarrollar regulaciones y prácticas éticas para utilizarla de manera responsable y consciente.
