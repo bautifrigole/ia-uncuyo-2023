@@ -10,6 +10,9 @@ class Coordinate:
     
     def __str__(self):
         return f"({self.x}, {self.y})"
+    
+    def __repr__(self):
+        return str(self)
 
     def is_equal_to(self, coord):
         return coord.x == self.x and coord.y == self.y
@@ -95,7 +98,7 @@ class Environment:
     def plot(self):
         fig, ax = plt.subplots()
 
-        cm = colors.ListedColormap(["white", "black", "lightblue", "red"])
+        cm = colors.ListedColormap(["white", "black", "green", "red"])
         ax.matshow(self.matrix, cmap=cm)
 
         plt.show()
