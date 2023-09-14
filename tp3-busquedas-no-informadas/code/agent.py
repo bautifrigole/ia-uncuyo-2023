@@ -61,13 +61,13 @@ class Agent():
     def get_solution(self, node: Node):
         self.path = []
         if node is None:
-            return (self.__class__.__name__, [], self.steps, float("inf"), self.success, self.env.size)
+            return (self.__class__.__name__, [], self.steps, "depth: inf", self.success)
         depth = node.depth
         while node.parent != None:
             self.path.append(node.position)
             node = node.parent
         self.path.reverse()
-        return (self.__class__.__name__, self.path, self.steps, depth, self.success, self.env.size)
+        return (self.__class__.__name__, self.path, self.steps, "depth: "+str(depth), self.success)
     
     def plot_solution(self):
         if self.path == []:
