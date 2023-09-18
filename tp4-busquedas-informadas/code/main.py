@@ -12,70 +12,28 @@ results = {
     "astar": []
 }
 
-'''with open('./tp4-busquedas-informadas/results.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["Algorithm_name", "env_n", "estates_n", "solution_found"])
-
-    for i in range(30):
-        writer = csv.writer(file)
-        env = Environment(size, 0.08)
-
-        agent = BFSAgent(env)
-        solution = agent.search_path()
-        writer.writerow([solution[0], i, len(agent.explored), agent.success])
-        results["bfs"].append(len(agent.explored))
-
-        agent = DFSAgent(env)
-        solution = agent.search_path()
-        writer.writerow([solution[0], i, len(agent.explored), agent.success])
-        results["dfs"].append(len(agent.explored))
-
-        agent = LimitedDFSAgent(env, 200)
-        solution = agent.search_path()
-        writer.writerow([solution[0], i, len(agent.explored), agent.success])
-        results["limited_dfs"].append(len(agent.explored))
-
-        agent = UniformCostAgent(env)
-        solution = agent.search_path()
-        writer.writerow([solution[0], i, len(agent.explored), agent.success])
-        results["uniform_cost"].append(len(agent.explored))
-
-        agent = AStarAgent(env)
-        solution = agent.search_path()
-        writer.writerow([solution[0], i, len(agent.explored), agent.success])
-        results["astar"].append(len(agent.explored))
-
-        print(i)
-
-file.close()'''
-
-for i in range(1):
+for i in range(30):
     env = Environment(size, 0.08)
 
     agent = BFSAgent(env)
     solution = agent.search_path()
     results["bfs"].append(len(agent.explored))
-    agent.plot_solution()
 
     agent = DFSAgent(env)
     solution = agent.search_path()
     results["dfs"].append(len(agent.explored))
-    agent.plot_solution()
 
     agent = LimitedDFSAgent(env, 200)
     solution = agent.search_path()
     results["limited_dfs"].append(len(agent.explored))
-    agent.plot_solution()
 
     agent = UniformCostAgent(env)
     solution = agent.search_path()
     results["uniform_cost"].append(len(agent.explored))
-    agent.plot_solution()
 
     agent = AStarAgent(env)
     solution = agent.search_path()
     results["astar"].append(len(agent.explored))
-    agent.plot_solution()
 
     print(i)
 
