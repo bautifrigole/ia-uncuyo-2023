@@ -1,5 +1,6 @@
 import random
 import math
+import numpy as np
 from n_queens_board import NQueensBoard
 
 class NQueensSolver:
@@ -57,32 +58,64 @@ class GeneticAlgorithmSolver:
         self.population_size = population_size
         self.generations = generations
         self.mutation_rate = mutation_rate
-        self.population = []  # Inicializar la población aquí
+        self.population = []
+    
+    def solve(self):
+        # Resuelve el problema utilizando el algoritmo genético
+        self.initialize_population()
+        for generation in range(self.generations):
+            best_board = min(self.population, key=self.calculate_fitness)
+            if self.calculate_fitness(best_board) == 0:
+                return best_board, 0, generation
+            self.evolve()
+        
+        best_board = min(self.population, key=self.calculate_fitness)
+        attacks = best_board.calculate_attack_pairs()
+        
+        return best_board, attacks, self.generations
 
     def initialize_population(self):
         # Generar una población inicial de soluciones aleatorias
-        pass
+        for _ in range(self.population_size):
+            board = NQueensBoard(self.n)
+            self.population.append(board)
 
-    def calculate_fitness(self, individual):
-        # Calcular el valor de aptitud para un individuo dado
-        pass
+    def calculate_fitness(self, board):
+        # Calcular el valor de aptitud para un tablero dado
+        return board.calculate_attack_pairs()
 
     def select_parents(self):
-        # Seleccionar dos padres de la población actual
-        pass
+        # Seleccionar dos padres de la población actual utilizando torneos
+        parents = []
+
+        for _ in range(2):  # Seleccionar dos padres
+            tournament_candidates = random.sample(self.population, 8)
+            best_parent = min(tournament_candidates, key=self.calculate_fitness)
+            parents.append(best_parent)
+
+        return parents
 
     def crossover(self, parent1, parent2):
-        # Realizar el cruce (crossover) para generar un nuevo individuo
-        pass
+        # Realizar el cruce (crossover) para generar un nuevo tablero
+        child = NQueensBoard(self.n)
+        crossover_point = random.randint(1, self.n - 1)
+        child.board = parent1.board[:crossover_point] + parent2.board[crossover_point:]
+        return child
 
-    def mutate(self, individual):
+    def mutate(self, board):
         # Aplicar mutación a un individuo
-        pass
+        if random.random() < self.mutation_rate:
+            index_to_mutate = random.randint(0, self.n - 1)
+            new_value = random.randint(0, self.n - 1)
+            board.move_queen(index_to_mutate, new_value)
 
     def evolve(self):
         # Algoritmo principal de evolución
-        pass
+        new_population = []
+        for _ in range(self.population_size):
+            parent1, parent2 = self.select_parents()
+            child = self.crossover(parent1, parent2)
+            self.mutate(child)
+            new_population.append(child)
+        self.population = new_population
 
-    def solve(self):
-        # Resuelve el problema utilizando el algoritmo genético
-        pass
