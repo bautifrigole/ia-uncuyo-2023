@@ -1,16 +1,17 @@
 import random
 import math
-import numpy as np
 from n_queens_board import NQueensBoard
 
 class NQueensSolver:
     def __init__(self, n, max_evaluations):
         self.n = n
         self.max_evaluations = max_evaluations
+        self.h_values = []
 
     def solve(self):
         current_board = NQueensBoard(self.n)
         current_attacks = current_board.calculate_attack_pairs()
+        self.h_values.append(current_attacks)
         evaluations = 1
 
         while current_attacks > 0 and evaluations < self.max_evaluations:
@@ -25,6 +26,7 @@ class NQueensSolver:
 
             self.update_state()
             evaluations += 1
+            self.h_values.append(current_attacks)
 
         return current_board, current_attacks, evaluations
     
@@ -44,6 +46,7 @@ class SimulatedAnnealingSolver(NQueensSolver):
         self.max_evaluations = max_evaluations
         self.temperature = initial_temperature
         self.cooling_rate = cooling_rate
+        self.h_values = []
     
     def is_neighboring_solution_better(self, neighbor_attacks: int, current_attacks: int):
         delta_attacks = neighbor_attacks - current_attacks
@@ -59,12 +62,14 @@ class GeneticAlgorithmSolver:
         self.generations = generations
         self.mutation_rate = mutation_rate
         self.population = []
+        self.h_values = []
     
     def solve(self):
         # Resuelve el problema utilizando el algoritmo genético
         self.initialize_population()
         for generation in range(self.generations):
             best_board = min(self.population, key=self.calculate_fitness)
+            self.h_values.append(best_board.calculate_attack_pairs())
             if self.calculate_fitness(best_board) == 0:
                 return best_board, 0, generation
             self.evolve()
@@ -89,7 +94,7 @@ class GeneticAlgorithmSolver:
         parents = []
 
         for _ in range(2):  # Seleccionar dos padres
-            tournament_candidates = random.sample(self.population, 8)
+            tournament_candidates = random.sample(self.population, 4)
             best_parent = min(tournament_candidates, key=self.calculate_fitness)
             parents.append(best_parent)
 
