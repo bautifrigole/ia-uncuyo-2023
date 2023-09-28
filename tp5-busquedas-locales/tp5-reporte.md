@@ -1,11 +1,30 @@
 ## Parte II
-### A) Ejecutar cada uno de los algoritmos implementados en la parte I 30 veces y calcular para el caso de 4, 8,10,(12,15)? reinas:
+### A) Resultados obtenidos
 
-1. El número (porcentaje) de veces que se llega a un estado de solución óptimo.
-2. El tiempo de ejecución promedio y la desviación estándar para encontrar dicha solución. (se puede usar la función time.time() de python)
-3. La cantidad de estados previos promedio y su desviación estándar por los que tuvo que pasar para llegar a una solución.
-4. Generar un tabla con los resultados para cada uno de los algoritmos desarrollados y guardarla en formato .csv (comma separated value)
-5. Realizar un gráfico de cajas (boxplot) que muestre la distribución de los tiempos de ejecución de cada algoritmo.
+![BoxPlot](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/50c5954e-5459-4bab-aaf4-fa49185e36e4)
 
-### B) Para cada uno de los algoritmos, graficar la variación de la función h() a lo largo de las iteraciones. (Considerar solo una ejecución en particular)
+![results](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/9de35511-7fc9-4208-9d6d-0ec454b58e8d)
+
+(En el algoritmo genético se tomó cada generación como un estado)
+
+### B) Variación de la función h() a lo largo de las iteraciones
+
+#### Hill Climbing
+![H_HillClimbing](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/d9bed5fd-3b5e-4ad5-a734-82eaa56dac7e)
+
+#### Simulated Annealing
+![H_SimulatedAnnealing](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/84d85775-4298-4df9-b290-79a2e8324f17)
+
+#### Genetic
+
+En el algoritmo genético se implementaron los siguientes operadores:
+- **Seleccion**: Torneos de 4 participantes
+- **Crossover**: Crossover de un punto aleatorio
+- **Mutacion**: Mutacion de un gen aleatorio
+- **Reemplazo**: Elitismo
+
+![H_Genetic](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/f5334446-4476-4a99-a219-ea02b32ace05)
+
 ### C) Indicar según su criterio, cuál de los tres algoritmos implementados resulta más adecuado para la solución del problema de las n-reinas. Justificar.
+
+Depende según nuestro caso particular, si queremos obtener un caso óptimo y no nos importa que demore en encontrar la solución, un algoritmo genético sería la mejor opción, pudiendo incluso mejorar los resultados obtenidos al seguir modificando valores de los distintos parámetros. Ahora si queremos que el problema se resuelva rápido y no nos interesa obtener un caso óptimo, tanto Hill Climbing como Simulated Annealing son muy buenas opciones para este caso, pero me inclinaría más por Hill Climbing ya que en mis resultados obtuvo un mayor porcentaje de soluciones óptimas y, en promedio, recorriendo menos estados.
