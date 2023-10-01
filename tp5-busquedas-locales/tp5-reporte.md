@@ -1,4 +1,8 @@
 ## Parte II
+
+### N Reinas
+![8-Queens](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/1578cdff-65ca-40b0-ae65-4548fde0403e)
+
 ### A) Resultados obtenidos
 
 ![BoxPlot](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/50c5954e-5459-4bab-aaf4-fa49185e36e4)
