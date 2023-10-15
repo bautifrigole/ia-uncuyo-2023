@@ -152,3 +152,11 @@ Este resultado es suficiente porque, en un CSP, el objetivo es encontrar una asi
     d. En cada variante, calcular la cantidad de estados recorridos antes de llegar a la
     solución para los casos de 4, 8, 10, 12 y 15 reinas.
     e. Realizar un gráfico de cajas para los puntos c y d.
+
+Se implementó forward checking con una heurística de selección de la variable más restrictiva (la fila con menos opciones en su dominio), lo que mejora notablemente la cantidad de pasos hasta encontrar la solución.
+
+![TimeCSP](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/286baf48-5917-4dfd-abfa-36a27e715042)
+
+![StepsCSP](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/0b23171e-ecd5-4094-af11-a2a36839dd05)
+
+En base a los resultados obtenidos, la implementación con forward checking cuenta con un tiempo de ejecución levemente mayor que backtracking, pero reduce significativamente los pasos hasta encontrar la solución, por lo que, para este tipo de casos y a medida que crezca n, es conveniente utilizar forward checking.
