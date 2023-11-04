@@ -1,4 +1,4 @@
-## Título del proyecto: Detección de casos de bullying
+# Detección de casos de bullying
 
 ### Código del proyecto: BULL
 
