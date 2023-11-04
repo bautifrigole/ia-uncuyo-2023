@@ -56,4 +56,5 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
 
 ### Cronograma estimado de actividades (gantt)
 
+![Facultad(2)](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/9d85c431-ba1c-4618-b2b5-a450254aa268)
 
