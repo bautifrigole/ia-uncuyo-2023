@@ -21,7 +21,6 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
 ### Listado de actividades a realizar
 
 1. Recopilación y Limpieza de Datos [4 días]:
-   - Descargar y preparar el conjunto de datos del GSHS.
    - Realizar limpieza de datos para eliminar valores nulos o inconsistentes.
 
 2. Análisis Exploratorio de Datos [6 días]:
@@ -34,6 +33,7 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
 
 4. División del Conjunto de Datos [2 días]:
    - Selección de la técnica para dividir el conjunto de datos en conjuntos de entrenamiento, validación y prueba.
+   - Solucionar problemas de desequilibrio de clases en el conjunto de datos.
 
 5. Selección del Modelo de Machine Learning [6 días]:
    - Investigar y seleccionar un modelo de machine learning adecuado para la predicción de bullying, como clasificadores (p. ej., Random Forest, SVM).
@@ -52,7 +52,7 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
 9. Interpretación de Resultados [2 días]:
    - Analizar las predicciones del modelo para identificar patrones y características clave asociadas con casos de bullying.
 
-10. Escritura de informe final [7 días].
+10. Escritura de informe final [12 días].
 
 ### Cronograma estimado de actividades (gantt)
 
