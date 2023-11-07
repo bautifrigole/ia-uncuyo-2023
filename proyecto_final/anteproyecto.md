@@ -6,7 +6,7 @@
 
 ### Descripción
 
-Nuestro proyecto de inteligencia artificial se enfoca en la detección y predicción de casos de bullying utilizando técnicas de machine learning. El objetivo principal de esta iniciativa es desarrollar un modelo capaz de identificar situaciones de acoso entre estudiantes, con el fin de prevenir y abordar este grave problema que afecta a jóvenes en todo el mundo. Para lograr esto, hemos empleado el conjunto de datos del Global School-Based Student Health Survey (GSHS) realizado en Argentina en 2018, que proporciona una amplia gama de información relevante sobre la salud y el comportamiento de los jóvenes.
+Nuestro proyecto de inteligencia artificial se enfoca en la detección y predicción de casos de bullying utilizando técnicas de machine learning. El objetivo principal de esta iniciativa es desarrollar un modelo capaz de identificar situaciones de acoso entre estudiantes, con el fin de prevenir y abordar este grave problema que afecta a jóvenes en todo el mundo. Para lograr esto, hemos empleado el [dataset](https://www.kaggle.com/datasets/leomartinelli/bullying-in-schools) del Global School-Based Student Health Survey (GSHS) realizado en Argentina en 2018, que proporciona una amplia gama de información relevante sobre la salud y el comportamiento de los jóvenes.
 
 El Global School-Based Student Health Survey (GSHS) es una encuesta basada en escuelas que utiliza un cuestionario autoadministrado para recopilar datos sobre el comportamiento de salud de los jóvenes y los factores protectores relacionados con las principales causas de morbilidad y mortalidad. En la edición realizada en Argentina en 2018, participaron un total de 56,981 estudiantes.
 
