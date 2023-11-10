@@ -10,13 +10,56 @@ Nuestro proyecto de inteligencia artificial se enfoca en la detección y predicc
 
 El Global School-Based Student Health Survey (GSHS) es una encuesta basada en escuelas que utiliza un cuestionario autoadministrado para recopilar datos sobre el comportamiento de salud de los jóvenes y los factores protectores relacionados con las principales causas de morbilidad y mortalidad. En la edición realizada en Argentina en 2018, participaron un total de 56,981 estudiantes.
 
+El dataset cuenta con 18 variables entre las cuales se destacan:
+
+- Suffered bullying in past 12 months
+- Age
+- Sex
+- Felt lonely
+- Close friends amount
+- Miss school with no permission
+- Parents understand problems
+- Were underweight
+- Were obese
+
 ### Objetivo
 
 El objetivo fundamental de nuestro proyecto es desarrollar un modelo de machine learning que permita predecir situaciones de bullying en base a las demás variables. Al utilizar técnicas avanzadas de análisis de datos y aprendizaje automático, aspiramos a identificar patrones y relaciones ocultas en los datos que nos permitan anticipar casos de bullying, proporcionando así una herramienta efectiva para la prevención y el apoyo a los estudiantes afectados.
 
 ### Métricas
 
-La métrica principal que utilizaremos para evaluar la eficacia de nuestro modelo será la tasa de observaciones correctamente detectadas, lo que nos permitirá medir con precisión cuántos casos de bullying hemos identificado correctamente en relación con el total de casos reales. Esta métrica nos ayudará a determinar la capacidad de nuestro modelo para predecir y detectar el acoso escolar de manera confiable.
+Para evaluar la eficacia del modelo de detección de bullying, utilizaremos un conjunto de métricas clásicas en problemas de clasificación. Estas métricas proporcionarán una visión más completa del rendimiento del modelo, complementando la tasa de observaciones correctamente detectadas. Aquí están las métricas que consideraremos:
+
+1. **Precisión (Precision):**
+   - Descripción: La precisión mide la proporción de instancias positivas correctamente clasificadas respecto a todas las instancias clasificadas como positivas.
+   - Fórmula: Precision = TP / (TP + FP)
+   - Interpretación: Proporción de casos positivos predichos correctamente entre todos los casos predichos como positivos.
+
+2. **Recall (Sensibilidad o Tasa de Verdaderos Positivos):**
+   - Descripción: El recall mide la proporción de instancias positivas correctamente clasificadas respecto a todas las instancias que son realmente positivas.
+   - Fórmula: Recall = TP / (TP + FN)
+   - Interpretación: Proporción de casos positivos predichos correctamente entre todos los casos reales positivos.
+
+3. **F1-Score:**
+   - Descripción: El F1-score es la media armónica de la precisión y el recall, proporcionando un equilibrio entre ambas métricas.
+   - Fórmula: F1 = 2 * (Precision * Recall) / (Precision + Recall)
+   - Interpretación: Combina precisión y recall en una única métrica, ideal para problemas con desequilibrio de clases.
+
+4. **Exactitud (Accuracy):**
+   - Descripción: La exactitud mide la proporción de instancias correctamente clasificadas, independientemente de la clase.
+   - Fórmula: Accuracy = (TP + TN) / (TP + TN + FP + FN)
+   - Interpretación: Proporción de todas las predicciones correctas.
+
+5. **Especificidad (Tasa de Verdaderos Negativos):**
+   - Descripción: La especificidad mide la proporción de instancias negativas correctamente clasificadas respecto a todas las instancias realmente negativas.
+   - Fórmula: Especificidad = TN / (TN + FP)
+   - Interpretación: Proporción de casos negativos predichos correctamente entre todos los casos reales negativos.
+
+6. **Curva ROC y Área bajo la Curva (AUC-ROC):**
+   - Descripción: La curva ROC representa la tasa de verdaderos positivos frente a la tasa de falsos positivos para diferentes umbrales de decisión. El AUC-ROC mide la capacidad del modelo para distinguir entre clases.
+   - Interpretación: Un AUC-ROC cercano a 1 indica un buen rendimiento del modelo.
+
+Es importante evaluar estas métricas en conjunto, ya que proporcionan información valiosa sobre diferentes aspectos del rendimiento del modelo. Dependiendo de los requisitos específicos y las implicaciones prácticas del problema, algunas métricas pueden tener más relevancia que otras.
 
 ### Justificación
 
@@ -40,7 +83,7 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
    - Solucionar problemas de desequilibrio de clases en el conjunto de datos.
 
 5. Selección del Modelo de Machine Learning [6 días]:
-   - Investigar y seleccionar un modelo de machine learning adecuado para la predicción de bullying, como clasificadores (p. ej., Random Forest, SVM).
+   - Investigar y seleccionar un modelo de machine learning adecuado para la predicción de bullying, como clasificadores (Random Forest y otro modelo como por ej. SVM).
 
 6. Entrenamiento del Modelo [2 días]:
    - Implementar y entrenar el modelo seleccionado con el conjunto de entrenamiento.
@@ -52,6 +95,7 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
 8. Evaluación del Modelo [1 días]:
    - Probar el modelo final en el conjunto de prueba para evaluar su rendimiento.
    - Calcular métricas como precisión, sensibilidad, especificidad y la tasa de observaciones correctamente detectadas.
+   - Realizar una comparación entre los 2 modelos elegidos que, en principio, serían Random Forest y SVM.
 
 9. Interpretación de Resultados [2 días]:
    - Analizar las predicciones del modelo para identificar patrones y características clave asociadas con casos de bullying.
