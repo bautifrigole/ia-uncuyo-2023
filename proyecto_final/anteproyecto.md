@@ -10,7 +10,11 @@ Nuestro proyecto de inteligencia artificial se enfoca en la detección y predicc
 
 El Global School-Based Student Health Survey (GSHS) es una encuesta basada en escuelas que utiliza un cuestionario autoadministrado para recopilar datos sobre el comportamiento de salud de los jóvenes y los factores protectores relacionados con las principales causas de morbilidad y mortalidad. En la edición realizada en Argentina en 2018, participaron un total de 56,981 estudiantes.
 
+### Objetivo
+
 El objetivo fundamental de nuestro proyecto es desarrollar un modelo de machine learning que permita predecir situaciones de bullying en base a las demás variables. Al utilizar técnicas avanzadas de análisis de datos y aprendizaje automático, aspiramos a identificar patrones y relaciones ocultas en los datos que nos permitan anticipar casos de bullying, proporcionando así una herramienta efectiva para la prevención y el apoyo a los estudiantes afectados.
+
+### Métricas
 
 La métrica principal que utilizaremos para evaluar la eficacia de nuestro modelo será la tasa de observaciones correctamente detectadas, lo que nos permitirá medir con precisión cuántos casos de bullying hemos identificado correctamente en relación con el total de casos reales. Esta métrica nos ayudará a determinar la capacidad de nuestro modelo para predecir y detectar el acoso escolar de manera confiable.
 
