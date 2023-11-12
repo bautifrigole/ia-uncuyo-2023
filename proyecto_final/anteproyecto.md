@@ -26,6 +26,33 @@ El dataset cuenta con 18 variables entre las cuales se destacan:
 
 El objetivo fundamental de nuestro proyecto es desarrollar un modelo de machine learning que permita predecir situaciones de bullying en base a las demás variables. Al utilizar técnicas avanzadas de análisis de datos y aprendizaje automático, aspiramos a identificar patrones y relaciones ocultas en los datos que nos permitan anticipar casos de bullying, proporcionando así una herramienta efectiva para la prevención y el apoyo a los estudiantes afectados.
 
+### Justificación
+
+Al desarrollar un modelo de predicción sólido, se puede brindar una herramienta valiosa para la detección temprana y la prevención del bullying mediante encuestas en grandes cantidades de estudiantes, algo que no podría ser posible sin el uso de técnicas de inteligencia artificial, avisando de estos posibles casos de bullying a profesionales para que tomen cartas en el asunto. Este modelo podría contribuir al bienestar de los estudiantes y a la creación de un entorno escolar más seguro y saludable.
+
+### Estado del arte
+
+Se ha llevado a cabo una búsqueda de proyectos con características similares a nuestro objetivo de desarrollo. La mayoría de los documentos encontrados se centran en la clasificación a partir de texto, a diferencia de los datos normalizados que tenemos previsto utilizar. A continuación, se presentan algunos de los artículos destacados:
+
+- [**"Cyber Bullying and Machine Learning: A Survey"**](https://zenodo.org/record/4249341/files/01%20Paper%2001102001%20IJCSIS%20Camera%20Ready%20pp1-8.pdf)  
+   - Autores: Ibtihaj Alanazi, Jim Alves-Foss (2020)
+
+- [**"Identifying depression in the National Health and Nutrition Examination Survey data using a deep learning algorithm"**](https://www.sciencedirect.com/science/article/abs/pii/S0165032719304410)  
+   - Autores: Jihoon Oh, Kyongsik Yun, Uri Maoz, Tae-Suk Kim, Jeong-Ho Chae (2019)
+
+Adicionalmente, en relación al dataset con el que planeamos trabajar, se han llevado a cabo proyectos similares que están disponibles en la plataforma Kaggle. Algunos de ellos incluyen:
+
+- [**"Bullying in Schools - EDA"**](https://www.kaggle.com/code/anzarwani2/bullying-in-schools-eda)  
+   - Autor: Anzarwani2 (2023)
+
+- [**"Bullying in School Prediction"**](https://www.kaggle.com/code/sridharstreaks/bullying-in-school-prediction)  
+   - Autor: Sridhar Streaks (2023)
+   - Se utilizan árboles de decisión, obteniendo 76.29% de accuracy.
+
+- [**"Bullying in Schools"**](https://www.kaggle.com/code/ashokrajuyadav/bullying-in-schools)
+   - Autor: Ashok Raju Onteru (2023)
+   - Se utilizan distintos algoritmos de random forest con oversampling (XGB y SKLEARN), obteniendo 70.28% y 77.37% de accuracy, respectivamente.
+
 ### Métricas
 
 Para evaluar la eficacia del modelo de detección de bullying, utilizaremos un conjunto de métricas clásicas en problemas de clasificación. Estas métricas proporcionarán una visión más completa del rendimiento del modelo, complementando la tasa de observaciones correctamente detectadas. Aquí están las métricas que consideraremos:
@@ -61,9 +88,6 @@ Para evaluar la eficacia del modelo de detección de bullying, utilizaremos un c
 
 Es importante evaluar estas métricas en conjunto, ya que proporcionan información valiosa sobre diferentes aspectos del rendimiento del modelo. Dependiendo de los requisitos específicos y las implicaciones prácticas del problema, algunas métricas pueden tener más relevancia que otras.
 
-### Justificación
-
-Al desarrollar un modelo de predicción sólido, se puede brindar una herramienta valiosa para la detección temprana y la prevención del bullying mediante encuestas en grandes cantidades de estudiantes, algo que no podría ser posible sin el uso de técnicas de inteligencia artificial, avisando de estos posibles casos de bullying a profesionales para que tomen cartas en el asunto. Este modelo podría contribuir al bienestar de los estudiantes y a la creación de un entorno escolar más seguro y saludable.
 
 ### Listado de actividades a realizar
 
@@ -105,4 +129,3 @@ Al desarrollar un modelo de predicción sólido, se puede brindar una herramient
 ### Cronograma estimado de actividades (gantt)
 
 ![Facultad(2)](https://github.com/bautifrigole/ia-uncuyo-2023/assets/64384449/9d85c431-ba1c-4618-b2b5-a450254aa268)
-
