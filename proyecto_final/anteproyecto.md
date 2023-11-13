@@ -51,7 +51,7 @@ Adicionalmente, en relación al dataset con el que planeamos trabajar, se han ll
 
 - [**"Bullying in Schools"**](https://www.kaggle.com/code/ashokrajuyadav/bullying-in-schools)
    - Autor: Ashok Raju Onteru (2023)
-   - Se utilizan distintos algoritmos de random forest con oversampling (XGB y SKLEARN), obteniendo 70.28% y 77.37% de accuracy, respectivamente.
+   - Se utilizan distintos algoritmos de random forest con oversampling (XGboost y SKLEARN), obteniendo 70.28% y 77.37% de accuracy, respectivamente.
 
 ### Métricas
 
@@ -108,6 +108,7 @@ Es importante evaluar estas métricas en conjunto, ya que proporcionan informaci
 
 5. Selección del Modelo de Machine Learning [6 días]:
    - Investigar y seleccionar un modelo de machine learning adecuado para la predicción de bullying, como clasificadores (Random Forest y otro modelo como por ej. SVM).
+   - En vista de lo hecho en Kaggle, probar los algoritmos ya planteados en los notebooks. En particular, Árbol de decisión y Random Forests (XGboost y SKLEARN).
 
 6. Entrenamiento del Modelo [2 días]:
    - Implementar y entrenar el modelo seleccionado con el conjunto de entrenamiento.
@@ -119,7 +120,8 @@ Es importante evaluar estas métricas en conjunto, ya que proporcionan informaci
 8. Evaluación del Modelo [1 días]:
    - Probar el modelo final en el conjunto de prueba para evaluar su rendimiento.
    - Calcular métricas como precisión, sensibilidad, especificidad y la tasa de observaciones correctamente detectadas.
-   - Realizar una comparación entre los 2 modelos elegidos que, en principio, serían Random Forest y SVM.
+   - Realizar una comparación entre los 2 modelos elegidos que, en principio, serían Random Forest y SVM. Considerando que ambos modelos pueden tener features distintas.
+   - Realizar un test de hipótesis entre los 2 modelos elegidos.
 
 9. Interpretación de Resultados [2 días]:
    - Analizar las predicciones del modelo para identificar patrones y características clave asociadas con casos de bullying.
